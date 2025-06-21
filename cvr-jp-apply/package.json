@@ -7,7 +7,10 @@
     "check": "biome check --write",
     "lint": "biome lint --write",
     "format": "biome format --write",
-    "build": "bun build --compile --outfile ../cvr-jp-apply ./index.ts"
+    "dist": "bun build --compile --outfile ../cvr-jp-apply ./index.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.8.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.2",

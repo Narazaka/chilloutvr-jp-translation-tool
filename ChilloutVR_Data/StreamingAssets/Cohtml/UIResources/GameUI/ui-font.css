@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'JPFont';
+	src: url(BIZUDPGothic-Regular.ttf);
+}
+body {
+    font-family: 'Droid Sans', JPFont;
+}
+:root {
+    --standard-font-family: 'Droid Sans',JPFont;
+}
