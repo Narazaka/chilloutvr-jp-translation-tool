@@ -8,6 +8,8 @@ ChilltoutVRのメニューで日本語が文字化けしないようにし、ま
 
 ## 使用方法
 
+https://github.com/Narazaka/chilloutvr-jp-translation-tool/releases/latest から cvr-jp-*.zip をダウンロード
+
 cvr-jp-apply.exeを実行する。
 
 注意: もし「既にパッチが当たっていました」などの文言が出た場合は、SteamライブラリのChilloutVRの管理（歯車メニュー）から「インストール済みファイル」→「ゲームファイルの整合性を確認」を一度実行してから、改めて実行して下さい。
