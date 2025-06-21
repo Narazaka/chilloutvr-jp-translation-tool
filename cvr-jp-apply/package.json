@@ -3,6 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "check": "biome check --write",
+    "lint": "biome lint --write",
+    "format": "biome format --write",
+    "build": "bun build --compile --outfile ../cvr-jp-apply ./index.ts"
+  },
   "devDependencies": {
     "@biomejs/biome": "2.0.2",
     "@types/bun": "latest"
