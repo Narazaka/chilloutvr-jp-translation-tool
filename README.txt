@@ -16,9 +16,9 @@ cvr-jp-apply.exeを実行する。
 
 ### 「ChilloutVRが見付かりません。Steamのインストール先を確認してください。」
 
-ChilloutVRのインストール先やStreamデフォルトインストール先を変更している場合は、ChilloutVR.exeの入っているフォルダパスをcvrBasePath.txtに書いて上書き保存して下さい。
+ChilloutVRのインストール先やStreamデフォルトインストール先を変更している場合は、ChilloutVRのインストール先（ChilloutVR.exeの入っているフォルダパス）をcvrBasePath.txtに書いて上書き保存して下さい。
 
-ChilloutVR.exeの入っているフォルダパスは、SteamライブラリのChilloutVRの管理（歯車メニュー）から「インストール済みファイル」→「参照...」のボタンを押すと立ち上がるExplorerのパス部分をコピーして下さい。
+ChilloutVRのインストール先は、SteamライブラリのChilloutVRの管理（歯車メニュー）から「インストール済みファイル」→「参照...」のボタンを押すと立ち上がるExplorerのアドレスバーをコピーして下さい。
 
 ## フォントについて
 

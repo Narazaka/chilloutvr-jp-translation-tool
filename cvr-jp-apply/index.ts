@@ -44,10 +44,13 @@ const englishTranslationJsPath = path.join(
 
 if (!fs.existsSync(cvrBasePath)) {
   console.error(
-    "ChilloutVRが見付かりません。Steamのインストール先を確認してください。\n",
+    "ChilloutVRが見付かりません。Steamのインストール先を確認してください。\n\n" +
+      "・ChilloutVRのインストール先やStreamデフォルトインストール先を変更している場合\n" +
+      "　→ChilloutVRのインストール先（ChilloutVR.exeの入っているフォルダパス）をcvrBasePath.txtに書いて上書き保存してから再度実行して下さい。（このウインドウは閉じて下さい）\n\n" +
+      "　（参考）ChilloutVRのインストール先は、SteamライブラリのChilloutVRの管理（歯車メニュー）から「インストール済みファイル」→「参照...」のボタンを押すと立ち上がるExplorerのアドレスバーをコピーして下さい。",
   );
   await new Promise((resolve) => {
-    setTimeout(resolve, 60000);
+    setTimeout(resolve, 360000);
   });
   process.exit(1);
 }
