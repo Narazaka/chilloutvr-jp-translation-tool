@@ -6,8 +6,14 @@ const patchBasePath = fs.existsSync("./ChilloutVR_Data")
   ? "./ChilloutVR_Data"
   : "../ChilloutVR_Data";
 
-const cvrBasePath =
-  "C:/Program Files (x86)/Steam/steamapps/common/ChilloutVR/ChilloutVR_Data";
+const cvrBasePath = fs
+  .readFileSync(
+    fs.existsSync("./cvrBasePath.txt")
+      ? "./cvrBasePath.txt"
+      : "../cvrBasePath.txt",
+    "utf-8",
+  )
+  .trim();
 
 const patchHtmlBasePaths = [
   "StreamingAssets/Cohtml/UIResources/CVRTest",
